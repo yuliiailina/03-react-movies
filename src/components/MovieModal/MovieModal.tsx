@@ -3,7 +3,7 @@ import { createPortal } from "react-dom";
 import type { MouseEvent } from "react";
 
 import css from "./MovieModal.module.css";
-import type { Movie } from "../../types/movies";
+import type { Movie } from "../../types/movie";
 
 interface MovieModalProps {
   movie: Movie;
